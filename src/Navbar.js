@@ -21,7 +21,7 @@ function Navbar(props) {
     <div>
       <div className={`head-set ${state}`}>
         <div className="centralised">
-          <h1>Mohd Rashid</h1>
+          <h1>Mohd Rashid here is my assignment</h1>
         </div>
         <div className="centralised-1">
           <select
