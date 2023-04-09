@@ -19,10 +19,46 @@ code {
     monospace;
 }
 html{
-  font-size: 65.5%;
+  font-size: 75.5%;
 }
 p{
   font-size: 1.4rem;
+}
+.navLink{
+  text-decoration: none;
+  color:black;
+  margin-left: 20px;
+}
+
+.cartCount{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+.centered-elem{
+  text-align: center;
+}
+.productsWrapper{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  
+}
+.card{
+  max-width: 200px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+img{
+ width: 100%;
+  height: 80px;
 }
 .form-handle{
   display: flex;
